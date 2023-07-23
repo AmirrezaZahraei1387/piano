@@ -55,12 +55,6 @@ build CMakeFiles/piano.dir/main.cpp.obj: CXX_COMPILER__piano_Debug E$:/Github-Re
   OBJECT_DIR = CMakeFiles\piano.dir
   OBJECT_FILE_DIR = CMakeFiles\piano.dir
 
-build CMakeFiles/piano.dir/sounds.cpp.obj: CXX_COMPILER__piano_Debug E$:/Github-Repos/piano/sounds.cpp || cmake_object_order_depends_target_piano
-  DEP_FILE = CMakeFiles\piano.dir\sounds.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles\piano.dir
-  OBJECT_FILE_DIR = CMakeFiles\piano.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target piano
@@ -69,7 +63,7 @@ build CMakeFiles/piano.dir/sounds.cpp.obj: CXX_COMPILER__piano_Debug E$:/Github-
 #############################################
 # Link the executable piano.exe
 
-build piano.exe: CXX_EXECUTABLE_LINKER__piano_Debug CMakeFiles/piano.dir/main.cpp.obj CMakeFiles/piano.dir/sounds.cpp.obj
+build piano.exe: CXX_EXECUTABLE_LINKER__piano_Debug CMakeFiles/piano.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\piano.dir
